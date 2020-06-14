@@ -1,0 +1,274 @@
+/* body */
+body {
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 1.25rem;
+background-image: linear-gradient(45deg, #00a8cc, #ff9234);
+}
+
+/* headings */
+.heading{
+  font-size: 100%;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+.heading1{
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+/* h1, h2, h3 */
+h1 {
+  width: 45%;
+  margin: 0 auto;
+  position: relative;
+  font-family: 'El Messiri', sans-serif;
+  font-weight: normal;
+  font-size: 3.2rem;
+  color: #5b5656;
+}
+
+h1:hover {
+  color: white;
+}
+
+h2 {
+  font-family: 'El Messiri', sans-serif;
+  font-size: 3rem;
+  color:#512b58;
+}
+
+h2:hover {
+  color: #ddb6c6;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* hr */
+hr {
+  border-style: dotted none none none;
+  width: 30%;
+  border-color: #00909e;
+  border-width: 10px;
+}
+
+hr:hover {
+  border-color: black;
+}
+
+/* Navigation-bar */
+.navbar{
+  padding: 0 0 2.5rem;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.navbar-brand{
+width: 10%;
+}
+
+/* top-containers */
+.top-container{
+  padding: 3% 1.25%;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  font-family: 'Libre Caslon Text', serif;
+}
+
+.profile {
+  position: relative;
+  width: 45%;
+}
+
+.iitjodhpur {
+  position: relative;
+  width: 50%;
+}
+
+/* middle-container */
+.middle-container {
+  padding: 0 2%;
+  font-size: 1.2rem;
+}
+
+/* about */
+#about{
+  margin-bottom: 3%;
+  font-size: 1.25rem;
+}
+
+/* Skills */
+#My-Skills{
+  padding-top: 3%;
+  background-image: linear-gradient( 45deg, rgba(242, 165, 26, 0.3), rgba(128, 128, 128, 0.8));
+}
+
+.carousel-item{
+  padding: 3% 12%;
+}
+
+.python {
+  width: 10%;
+  border-radius: 100%;
+  border-style: solid;
+}
+
+.dancing {
+  width: 10%;
+  border-radius: 100%;
+  border-style: solid;
+}
+
+.webD {
+  width: 10%;
+  border-radius: 100%;
+  border-style: solid;
+}
+
+
+.font {
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+}
+.font-1{
+  margin-top: 2%;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+/* Experiences */
+#Experiences{
+  margin-top: 3%;
+}
+
+.exp1{
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 50%;
+  text-align: left;
+}
+
+.ignus{
+  margin-right: 10%;
+  width: 20%;
+  border-radius: 100%;
+  border-style: solid;
+  float: right;
+}
+
+.exp2{
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 50%;
+  text-align: left;
+}
+
+.ecell{
+  margin-right: 10%;
+  margin-bottom: 5%;
+  width: 20%;
+  border-radius: 100%;
+  border-style: solid;
+  float: left;
+  border-color: grey;
+}
+
+.font-3{
+  font-size: 1.5rem;
+}
+
+.font-4{
+  font-family: Montserrat;
+  font-size: 1.25rem;
+}
+
+/* contact */
+.contact-form{
+  text-align: left;
+  padding: 10%;
+}
+
+/* button-styling */
+.button {
+background: #FA9191;
+background-image: -webkit-linear-gradient(top, #FA9191, #ea9abb);
+background-image: -moz-linear-gradient(top, #FA9191, #ea9abb);
+background-image: -ms-linear-gradient(top, #FA9191, #ea9abb);
+background-image: -o-linear-gradient(top, #FA9191, #ea9abb);
+background-image: linear-gradient(to bottom, #FA9191, #ea9abb);
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+width: 12%;
+color: #000000;
+font-family: 'Merriweather', serif;
+font-size: 1rem;
+font-weight: bolder;
+margin: 10px;
+padding: 0.5%;
+box-shadow: 1px 1px 20px 0px #ffffff;
+-webkit-box-shadow: 1px 1px 5px 0px #ffffff;
+-moz-box-shadow: 1px 1px 5px 0px #ffffff;
+text-shadow: 1px 1px 20px #ffffff;
+border: solid #ea9abb 2px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+margin-top: 2%;
+}
+
+.button:hover {
+border: solid #ffb99a 2px;
+background: #ffb99a;
+background-image: -webkit-linear-gradient(top, #ee8572, #ffb99a );
+background-image: -moz-linear-gradient(top, #ee8572, #ffb99a);
+background-image: -ms-linear-gradient(top, #ee8572, #ffb99a);
+background-image: -o-linear-gradient(top, #ee8572, #ffb99a);
+background-image: linear-gradient(to bottom, #ee8572, #ffb99a);
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+text-decoration: none;
+}
+
+/* bottom-container */
+.bottom-container {
+  padding: 3% 15% 1%;
+  background-image: linear-gradient(grey, black);
+  text-align: center;
+}
+
+.social-icon{
+  padding: 4%;
+  color: black;
+}
+
+/* copyrights */
+.copyright{
+  padding-top: 3%;
+  font-size: 1.25rem;
+  color: grey;
+}
+
+ #ff1e56
+
+ bb3b0e
+
+ ff2394
+ 00a8cc
