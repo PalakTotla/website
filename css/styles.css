@@ -1,19 +1,19 @@
 /* body */
 body {
-margin: 0;
-text-align: center;
-font-family: 'Merriweather', serif;
-font-size: 1.25rem;
-background-image: linear-gradient(45deg, #00a8cc, #ff9234);
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.25rem;
+  background-image: linear-gradient(45deg, #00a8cc, #ff9234);
 }
 
 /* headings */
-.heading{
+.heading {
   font-size: 100%;
   font-family: 'Libre Caslon Text', serif;
 }
 
-.heading1{
+.heading1 {
   font-family: Montserrat;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -22,7 +22,7 @@ background-image: linear-gradient(45deg, #00a8cc, #ff9234);
 /* h1, h2, h3 */
 h1 {
   width: 45%;
-  margin: 0 auto;
+  margin: 1% auto;
   position: relative;
   font-family: 'El Messiri', sans-serif;
   font-weight: normal;
@@ -37,7 +37,7 @@ h1:hover {
 h2 {
   font-family: 'El Messiri', sans-serif;
   font-size: 3rem;
-  color:#512b58;
+  color: #512b58;
 }
 
 h2:hover {
@@ -50,35 +50,36 @@ h3 {
 
 /* hr */
 hr {
+  margin: 8% auto;
   border-style: dotted none none none;
-  width: 30%;
+  width: 50%;
   border-color: #00909e;
-  border-width: 10px;
+  border-width: 25px;
 }
 
 hr:hover {
-  border-color: black;
+  border-color: grey;
 }
 
 /* Navigation-bar */
-.navbar{
-  padding: 0 0 2.5rem;
+.navbar {
+  padding: 1rem 2rem 6rem;
 }
 
-.nav-item{
-  padding: 0 15px;
+.nav-item {
+  padding: 0 18px;
 }
 
-.nav-link{
-  font-size: 1.2rem;
+.nav-link {
+  font-size: 1.5rem;
 }
 
-.navbar-brand{
-width: 10%;
+.navbar-brand {
+  width: 10%;
 }
 
 /* top-containers */
-.top-container{
+.top-container {
   padding: 3% 1.25%;
   background-image: url("../images/bg.jpg");
   background-size: cover;
@@ -91,8 +92,9 @@ width: 10%;
 }
 
 .iitjodhpur {
+  padding: 10%;
   position: relative;
-  width: 50%;
+  width: 80%;
 }
 
 /* middle-container */
@@ -102,39 +104,39 @@ width: 10%;
 }
 
 /* about */
-#about{
-  margin-bottom: 3%;
+.About {
   font-size: 1.25rem;
+  text-align: center;
+  padding: 0 10%
 }
 
 /* Skills */
-#My-Skills{
+#My-Skills {
   padding-top: 3%;
-  background-image: linear-gradient( 45deg, rgba(242, 165, 26, 0.3), rgba(128, 128, 128, 0.8));
+  background-image: linear-gradient(45deg, rgba(126, 206, 252, 0.2), rgba(240, 175, 115, 0.2));
 }
 
-.carousel-item{
+.carousel-item {
   padding: 3% 12%;
 }
 
 .python {
-  width: 10%;
+  width: 20%;
   border-radius: 100%;
   border-style: solid;
 }
 
 .dancing {
-  width: 10%;
+  width: 20%;
   border-radius: 100%;
   border-style: solid;
 }
 
 .webD {
-  width: 10%;
+  width: 20%;
   border-radius: 100%;
   border-style: solid;
 }
-
 
 .font {
   font-family: Montserrat;
@@ -142,7 +144,8 @@ width: 10%;
   color: white;
   text-align: center;
 }
-.font-1{
+
+.font-1 {
   margin-top: 2%;
   font-size: 2rem;
   color: white;
@@ -150,11 +153,11 @@ width: 10%;
 }
 
 /* Experiences */
-#Experiences{
+#Experiences {
   margin-top: 3%;
 }
 
-.exp1{
+.exp1 {
   margin: auto;
   margin-top: 5%;
   margin-bottom: 10%;
@@ -162,23 +165,23 @@ width: 10%;
   text-align: left;
 }
 
-.ignus{
-  margin-right: 10%;
-  width: 20%;
+.ignus {
+  margin-left: 10%;
+  width: 22%;
   border-radius: 100%;
   border-style: solid;
   float: right;
 }
 
-.exp2{
+.exp2 {
   margin: auto;
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   width: 50%;
   text-align: left;
 }
 
-.ecell{
+.ecell {
   margin-right: 10%;
   margin-bottom: 5%;
   width: 20%;
@@ -188,63 +191,63 @@ width: 10%;
   border-color: grey;
 }
 
-.font-3{
+.font-3 {
   font-size: 1.5rem;
 }
 
-.font-4{
+.font-2 {
   font-family: Montserrat;
   font-size: 1.25rem;
 }
 
 /* contact */
-.contact-form{
+.contact-form {
   text-align: left;
   padding: 10%;
 }
 
 /* button-styling */
 .button {
-background: #FA9191;
-background-image: -webkit-linear-gradient(top, #FA9191, #ea9abb);
-background-image: -moz-linear-gradient(top, #FA9191, #ea9abb);
-background-image: -ms-linear-gradient(top, #FA9191, #ea9abb);
-background-image: -o-linear-gradient(top, #FA9191, #ea9abb);
-background-image: linear-gradient(to bottom, #FA9191, #ea9abb);
--webkit-border-radius: 50px;
--moz-border-radius: 50px;
-border-radius: 50px;
-width: 12%;
-color: #000000;
-font-family: 'Merriweather', serif;
-font-size: 1rem;
-font-weight: bolder;
-margin: 10px;
-padding: 0.5%;
-box-shadow: 1px 1px 20px 0px #ffffff;
--webkit-box-shadow: 1px 1px 5px 0px #ffffff;
--moz-box-shadow: 1px 1px 5px 0px #ffffff;
-text-shadow: 1px 1px 20px #ffffff;
-border: solid #ea9abb 2px;
-text-decoration: none;
-display: inline-block;
-cursor: pointer;
-text-align: center;
-margin-top: 2%;
+  background: #FA9191;
+  background-image: -webkit-linear-gradient(top, #FA9191, #ea9abb);
+  background-image: -moz-linear-gradient(top, #FA9191, #ea9abb);
+  background-image: -ms-linear-gradient(top, #FA9191, #ea9abb);
+  background-image: -o-linear-gradient(top, #FA9191, #ea9abb);
+  background-image: linear-gradient(to bottom, #FA9191, #ea9abb);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 12%;
+  color: #000000;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 0.5%;
+  box-shadow: 1px 1px 20px 0px #ffffff;
+  -webkit-box-shadow: 1px 1px 5px 0px #ffffff;
+  -moz-box-shadow: 1px 1px 5px 0px #ffffff;
+  text-shadow: 1px 1px 20px #ffffff;
+  border: solid #ea9abb 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 2%;
 }
 
 .button:hover {
-border: solid #ffb99a 2px;
-background: #ffb99a;
-background-image: -webkit-linear-gradient(top, #ee8572, #ffb99a );
-background-image: -moz-linear-gradient(top, #ee8572, #ffb99a);
-background-image: -ms-linear-gradient(top, #ee8572, #ffb99a);
-background-image: -o-linear-gradient(top, #ee8572, #ffb99a);
-background-image: linear-gradient(to bottom, #ee8572, #ffb99a);
--webkit-border-radius: 50px;
--moz-border-radius: 50px;
-border-radius: 50px;
-text-decoration: none;
+  border: solid #ffb99a 2px;
+  background: #ffb99a;
+  background-image: -webkit-linear-gradient(top, #ee8572, #ffb99a);
+  background-image: -moz-linear-gradient(top, #ee8572, #ffb99a);
+  background-image: -ms-linear-gradient(top, #ee8572, #ffb99a);
+  background-image: -o-linear-gradient(top, #ee8572, #ffb99a);
+  background-image: linear-gradient(to bottom, #ee8572, #ffb99a);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  text-decoration: none;
 }
 
 /* bottom-container */
@@ -254,21 +257,15 @@ text-decoration: none;
   text-align: center;
 }
 
-.social-icon{
+.social-icon {
   padding: 4%;
   color: black;
 }
 
 /* copyrights */
-.copyright{
+.copyright {
   padding-top: 3%;
   font-size: 1.25rem;
   color: grey;
 }
 
- #ff1e56
-
- bb3b0e
-
- ff2394
- 00a8cc
